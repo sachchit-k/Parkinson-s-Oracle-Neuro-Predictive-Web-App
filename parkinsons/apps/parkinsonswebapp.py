@@ -21,7 +21,7 @@ from sklearn import svm
 from sklearn.metrics import accuracy_score
 
 
-loaded_model=pickle.load(open('D:/DOCS/Ineuron_main_project_2.0/parkinsons/models/trained_model1.sav','rb'))
+loaded_model=pickle.load(open('trained_model1.sav','rb'))
 
 def parkinsons_prediction(input_data):
     
